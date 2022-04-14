@@ -7,9 +7,6 @@ variable "instance_type" {
 }
 
 variable tags {
-  default = {
-    Name = "terraform"
-  }
 }
 
 variable "key_name" {
