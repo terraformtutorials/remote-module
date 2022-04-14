@@ -1,3 +1,5 @@
 resource "aws_iam_user" "iam-user" {
-  name = "iam_user"
+  name = var.name
+  tags = var.tags
 }
+
