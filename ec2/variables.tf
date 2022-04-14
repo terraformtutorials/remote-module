@@ -1,11 +1,13 @@
-variable "key_name" {
-   default = ""
+variable region {
+  default = "ap-south-1"
 }
 
-variable "vpc_security_group_ids" {
-   default = ""
+variable "instance_type" {
+  default = "t2.micro"
 }
 
-variable "subnet_id" {
-   default = ""
+variable tags {
+  default = {
+    Name = "terraform"
+  }
 }
