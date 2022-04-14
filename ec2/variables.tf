@@ -7,6 +7,9 @@ variable "instance_type" {
 }
 
 variable tags {
+  default = {
+     Name = "dev"
+  }
 }
 
 variable "key_name" {
